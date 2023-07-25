@@ -5,9 +5,9 @@ body{
 }
 
 .form{
-    background-color: white;
+    background-color: #b3e5fc;
     border-radius: 5px;
-    width: 550px;
+    width: 500px;
     margin: 20px auto;
     padding: 20px;
     /* height: 600px; */

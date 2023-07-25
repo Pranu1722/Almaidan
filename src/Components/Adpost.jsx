@@ -1,8 +1,18 @@
-import React from 'react'
+import React from 'react';
+import { Card, CardContent, Typography } from '@mui/material';
+
 
 function Adpost() {
   return (
-    <div>Adpost</div>
+    <>
+        <Card sx={{ width:'800px', marginLeft:'500px', marginTop:'100px' }}>
+        <CardContent>
+          <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+            Ad post
+          </Typography>
+        </CardContent>
+      </Card>
+    </>
   )
 }
 

@@ -12,6 +12,7 @@ import styled from '@emotion/styled';
 import { InputBase } from '@mui/material';
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
+import Adpost from './Adpost';
 
 
 const Search = styled('div')(({ theme }) => ({
@@ -74,37 +75,19 @@ function Main() {
       </Button>
     </Stack>
     </Box>
+    <Box>
+      <Adpost/>
+    </Box>
        
-
+{/* 
       <Card sx={{ minWidth: 275, marginTop:'20px' }}>
         <CardContent>
           <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
             Ad post
           </Typography>
         </CardContent>
-      </Card>
-      <Card sx={{ minWidth: 275 }}>
-        <CardContent>
-          <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-            Ad post
-          </Typography>
-        </CardContent>
-      </Card>
-      <Card sx={{ minWidth: 275 }}>
-        <CardContent>
-          <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-            Ad post
-          </Typography>
-        </CardContent>
-      </Card>
-      <Card sx={{ minWidth: 275 }}>
-        <CardContent>
-          <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-            Ad post
-          </Typography>
-        </CardContent>
-      </Card>
-      <CardActions></CardActions>
+      </Card> */}
+
   
     </>
   )
