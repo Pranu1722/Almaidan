@@ -64,6 +64,7 @@ function Main() {
         </Search>
       </Toolbar>
     </Box>
+    <Box sx={{ marginRight: '6px', marginTop: '-65px' }}>
     <Stack direction="row" spacing={2} marginbottom='10px' >
       <Button sx={{ borderRadius: "20px",  marginLeft:'1500px', }} variant="outlined">
         Login
@@ -72,9 +73,10 @@ function Main() {
         Register
       </Button>
     </Stack>
+    </Box>
        
 
-      <Card sx={{ minWidth: 275 }}>
+      <Card sx={{ minWidth: 275, marginTop:'20px' }}>
         <CardContent>
           <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
             Ad post
