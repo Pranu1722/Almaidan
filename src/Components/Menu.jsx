@@ -5,6 +5,7 @@ import TabsList from "@mui/base/TabsList";
 import TabPanel from "@mui/base/TabPanel";
 import { buttonClasses } from "@mui/base/Button";
 import Tab, { tabClasses } from "@mui/base/Tab";
+import Homepage from './Homepage';
 
 const StyledTab = styled(Tab)`
   font-family: "IBM Plex Sans", sans-serif;
@@ -74,7 +75,9 @@ function Menu() {
       <StyledTab value={1}>Classifieds</StyledTab>
       <StyledTab value={2}>Contact</StyledTab>
     </StyledTabsList>
-    <StyledTabPanel value={0}>Home page</StyledTabPanel>
+    <StyledTabPanel value={0}>
+        <Homepage/>
+    </StyledTabPanel>
     <StyledTabPanel value={1}>Classifieds page</StyledTabPanel>
     <StyledTabPanel value={2}>Contact page</StyledTabPanel>
   </Tabs>

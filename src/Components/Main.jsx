@@ -8,7 +8,6 @@ import styled from '@emotion/styled';
 import { InputBase } from '@mui/material';
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
-import Adpost from './Adpost';
 import Menu from './Menu';
 
 
