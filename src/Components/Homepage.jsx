@@ -7,6 +7,7 @@ function Homepage() {
     <Box sx={{marginTop:'20px'}}>
         <Adpost/>
         <Adpost/>
+        <Box sx={{ height:'100px', textAlign:'center', marginTop:'75px'}}> Ads can be posted here</Box>
         <Adpost/>
         <Adpost/>
     </Box>
