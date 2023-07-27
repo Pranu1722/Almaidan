@@ -2,10 +2,6 @@ import React from 'react';
 import logo2 from './Images/logo2.png';
 import './style.css';
 import Box from "@mui/material/Box";
-import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
-import CardContent from "@mui/material/CardContent";
-import Typography from "@mui/material/Typography";
 import Toolbar from '@mui/material/Toolbar';
 import SearchIcon from '@mui/icons-material/Search';
 import styled from '@emotion/styled';
@@ -13,6 +9,7 @@ import { InputBase } from '@mui/material';
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
 import Adpost from './Adpost';
+import Menu from './Menu';
 
 
 const Search = styled('div')(({ theme }) => ({
@@ -23,6 +20,8 @@ const Search = styled('div')(({ theme }) => ({
     },
     borderRadius: '15px',
     width: '600px', 
+    
+
     
   }));
   
@@ -74,10 +73,12 @@ function Main() {
         Register
       </Button>
     </Stack>
+    <Box sx={{marginTop:'20px', width:'800px', marginLeft:'550px'}}>
+      <Menu/>
+     </Box>
+   
     </Box>
-    <Box>
-      <Adpost/>
-    </Box>
+    
        
 {/* 
       <Card sx={{ minWidth: 275, marginTop:'20px' }}>

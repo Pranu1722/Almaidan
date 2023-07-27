@@ -16,4 +16,4 @@ function Adpost() {
   )
 }
 
-export default Adpost
+export default Adpost;
